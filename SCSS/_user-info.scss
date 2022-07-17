@@ -1,0 +1,42 @@
+.nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    .fa-bars
+    {
+        font-size: 35px;
+        color: #fff;
+    }
+}
+
+.navbar 
+{
+    background-color: #000;
+}
+
+.navbar-brand
+{
+    img 
+    {
+        height: 40px;
+    }
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+.navbar-nav
+{
+    float: right;
+    text-align: right;
+}
+
+.nav-link
+{
+    color: #fff !important;
+    margin: 0 10px !important;
+}

@@ -1,0 +1,122 @@
+@media only screen and (max-width: 960px)
+{
+    #header 
+    {
+        height: 110vh;
+    }
+
+   .user-box
+   {
+       img 
+       {
+           width: 150px;
+           height: 150px;
+       }
+   }
+
+   .scroll-btn
+   {
+       display: block;
+       margin: 0 auto;
+       text-align: center;
+       transform: translate(-30%, 50%);
+       bottom: 0;
+   }
+
+   .navbar-brand 
+   {
+       img 
+       {
+           height: 20px;
+           width: 60px;
+       }
+   }
+
+   .profile-img 
+   {
+       display:block;
+       margin:0px auto;
+       text-align:center;
+       margin-bottom: 50px;
+   }
+
+   #about  
+   {
+       h3 
+       {
+          text-align: center;
+          margin-bottom: 30px;
+       }
+
+       p 
+       { 
+           text-align: center;
+           padding: 0 5%;
+           margin-bottom: 25px;
+       }
+   }
+
+   .skills-bar 
+   {
+       margin-top: 50px !important;
+   }
+
+  
+    .progress
+    {
+        width: 90%;
+    }
+   
+
+   .social-icons
+   {
+       margin-top: 125px;
+       transform: translateY(15%);
+       margin-bottom: 100px;
+   }
+
+
+   #resume
+   {
+       h3 
+       {
+          margin-top: 25px;
+       }
+
+       .timeline
+       {
+           li 
+           {
+              margin-left: 5px;
+           }
+
+           li::before
+           {
+               left: 5px;
+           }
+       }
+
+       .timeline::before
+       {
+           left: 14px;
+       }
+   }
+
+   #contact
+   {
+        h1 
+        {
+            margin-bottom: 25px;
+        }
+
+        .col-md-4
+        {
+            margin-bottom: 50px;
+        }
+
+        .footer
+        {
+           font-size: 12px;
+        }
+   }
+}
